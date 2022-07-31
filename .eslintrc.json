@@ -5,6 +5,7 @@
     },
     "extends": [
         "plugin:react/recommended",
+        "plugin:react/jsx-runtime",
         "standard"
     ],
     "parser": "@typescript-eslint/parser",
@@ -19,6 +20,12 @@
         "react",
         "@typescript-eslint"
     ],
+    "settings": {
+      "react": {
+        "pragma": "React",
+        "version": "detect"
+      }
+    },
     "rules": {
     }
 }
