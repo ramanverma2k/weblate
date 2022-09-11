@@ -3,8 +3,13 @@
   "extends": ["config:base"],
   "packageRules": [
     {
-      "matchPackagePatterns": ["*"],
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
       "automerge": true
     }
-  ]
+  ],
+  "rangeStrategy": "bump"
 }
