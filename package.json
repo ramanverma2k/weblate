@@ -30,7 +30,7 @@
     "eslint-plugin-n": "^15.3.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.31.10",
-    "jsdom": "^20.0.1",
+    "jsdom": "^20.0.2",
     "postcss": "^8.4.18",
     "typescript": "^4.8.4",
     "vite": "^3.2.1",
